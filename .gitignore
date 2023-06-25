@@ -1,0 +1,22 @@
+# Ignore Django-related files
+*.pyc
+__pycache__/
+db.sqlite3
+
+# Ignore media files
+media/
+
+# Ignore environment-specific settings
+.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local development settings
+local_settings.py
